@@ -1,0 +1,7 @@
+node_modules
+bot_tokens.ts
+dist
+coverage
+data
+yarn.lock
+pnpm-lock.yaml

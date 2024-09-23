@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "es2022",
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es2021",
+      "DOM"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "localScripts/**/*",
+    "test.js", "constants.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
